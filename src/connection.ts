@@ -1,9 +1,9 @@
 import mysql from 'promise-mysql';
 
 const pool = mysql.createPool({
-    host: 'localhost',
+    host: 'al-motors.cxkeo8im47tc.us-east-2.rds.amazonaws.com',
     user: 'root',
-    password: '123456',
+    password: 'AlMotors10',
     database: 'al_motors',
 });
 
